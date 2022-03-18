@@ -5,7 +5,7 @@ from tkinter import *
 import tkinter.filedialog
 import tkinter.messagebox
 import tkinter.ttk
-import test
+import classification
 
 
 def dirdialog_clicked():
@@ -23,7 +23,7 @@ def conductMain():
 
     if text:
         #tk.messagebox.showinfo("info", text)
-        test.hello(dirPath)
+        classification.hello(dirPath)
 
     else:
         tk.messagebox.showinfo("error", "フォルダを指定してください")
