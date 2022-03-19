@@ -68,7 +68,7 @@ if __name__ == "__main__":
     button1 = tk.ttk.Button(frame3, text="実行", command=conductMain)
     button1.pack(fill = "x", padx=30, side = "left")
 
-    button2 = tk.ttk.Button(frame3, text=("閉じる"), command=quit)
+    button2 = tk.ttk.Button(frame3, text=("閉じる"), command=root.quit)
     button2.pack(fill = "x", padx=30, side = "left")
 
     root.mainloop()

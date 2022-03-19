@@ -26,7 +26,7 @@ def daytime_or_night(s, e):
   for path in img_paths:
       img = Image.open(path)
       if img is None:
-          print('failed to loading image {}.'.format(path))
+          tk.messagebox.showinfo("お知らせ", "画像がありません")
           continue
 
       count = 0
