@@ -16,3 +16,7 @@ Macでは次のようになります．
 
 画像の分類が終わると以下のような画面が表示されます．
 ![info](./images/info.png)
+
+
+作業中はwork.shを実行して画面をtmuxで分割して実装しています．
+![work](./images/nvim.JPG)
